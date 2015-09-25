@@ -1,7 +1,52 @@
-title:       A Triangle Jekyll
-author:      Leonard Kiyoshi Bogdonoff
-linkedin:    http://www.linkedin.com/pub/leonard-bogdonoff/25/14b/8a6
-twitter:     rememberlenny
-github:      rememberlenny
-source:      ./_source
-destination: ./_site
+#
+# Site settings
+#
+
+description: Site description
+title: Site Title
+
+#
+# Author
+#
+
+author: John Doe
+email: johndoe@example.com
+
+#
+# Build settings
+#
+
+gems:
+    - jekyll-mentions
+    - jekyll-redirect-from
+    - jekyll-sitemap
+    - jemoji
+exclude:
+    - _vendor
+    - bower.json
+    - Brocfile.js
+    - CHANGELOG.md
+    - CONTRIBUTING.md
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE.txt
+    - Makefile
+    - node_modules
+    - package.json
+    - README.md
+    - tmp
+    - vendor
+markdown: kramdown
+permalink: pretty
+safe: true
+lsi: false
+
+#
+# Defaults
+#
+
+defaults:
+  - scope:
+        path: ""
+    values:
+        layout: default
