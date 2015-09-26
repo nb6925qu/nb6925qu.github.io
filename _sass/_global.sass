@@ -20,6 +20,7 @@ $content-width:    800px
 
 $on-palm:          600px
 $on-laptop:        800px
+$on-smallest:      400px
 
 
 #banner
@@ -31,7 +32,7 @@ $on-laptop:        800px
     color: #032754
   color: white
 
-  +media($on-palm)
+  +media(max-width $on-smallest)
     background-size: 800px
 
 .btn-primary
