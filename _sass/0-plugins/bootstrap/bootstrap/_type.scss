@@ -245,6 +245,7 @@ blockquote {
   border-left: 5px solid $blockquote-border-color;
   background-color: $blockquote-background-color;
   font-style: italic;
+  color: $blockquote-font-color;
   p,
   ul,
   ol {
