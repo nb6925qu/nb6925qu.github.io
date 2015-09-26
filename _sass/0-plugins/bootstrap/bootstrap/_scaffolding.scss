@@ -26,10 +26,12 @@ html {
 
 body {
   font-family: $font-family-base;
+  font-weight: $font-weight-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
   color: $text-color;
   background-color: $body-bg;
+  padding-top: $body-top-padding;
 }
 
 // Reset fonts for relevant elements

@@ -243,7 +243,7 @@ blockquote {
   margin: 0 0 $line-height-computed;
   font-size: $blockquote-font-size;
   border-left: 5px solid $blockquote-border-color;
-
+  background-color: $blockquote-background-color;
   p,
   ul,
   ol {
