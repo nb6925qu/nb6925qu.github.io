@@ -142,11 +142,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="1410.3266"
-     inkscape:cy="157.10867"
+     inkscape:zoom="1.4"
+     inkscape:cx="1393.0312"
+     inkscape:cy="391.6856"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g8760"
      showgrid="false"
      showguides="false"
      inkscape:window-width="1600"
@@ -1498,7 +1498,7 @@
           </g>
         </g>
         <path
-           style="opacity:1;fill:#85c4e1;fill-opacity:1;stroke:#abd5e8;stroke-width:9.05811214;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="opacity:1;fill:#c9a5a2;fill-opacity:1;stroke:#f2dada;stroke-width:9.05811214;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 147.00852,324.82113 0,19.84169 -102.648557,0 0,14.19352 102.648557,0 0,19.0061 30.56355,-13.25976 30.56543,-13.26089 -30.56543,-13.25976 -30.56355,-13.2609 z"
            id="rect8755"
            inkscape:connector-curvature="0" />
