@@ -19,10 +19,28 @@ layout: default
       <div class="row">
 
         <div class="col-sm-8 blog-main">
-          <ul class="nav nav-tabs">
+
+          <div class="visible-xs-block">
+          <div class="dropdown">
+
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Filter Posts
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li class="{{ page.link1 }}"><a href="{{ site.baseurl }}/">All</a></li>
+              <li class="{{ page.link2 }}"><a href="{{ site.baseurl }}/home-MSUM.html">MSUM</a></li>
+              <li class="{{ page.link3 }}"><a href="{{ site.baseurl }}/home-FM.html">Fargo/Moorhead</a></li>
+              <li class="{{ page.link4 }}"><a href="{{ site.baseurl }}/home-National.html">National</a></li>
+            </ul>
+            • {% if page.link1 %}All{% elsif page.link2 %}MSUM{% elsif page.link3 %}Fargo/Moorhead{% elsif page.link4 %}National{% else %}All{% endif %}
+          </div>
+          <hr />
+        </div>
+
+
+          <ul class="nav nav-tabs visible-sm-block hidden-xs-block">
             <li class="{{ page.link1 }}"><a href="{{ site.baseurl }}/">All</a></li>
             <li class="{{ page.link2 }}"><a href="{{ site.baseurl }}/home-MSUM.html">MSUM</a></li>
-            <li class="{{ page.link3 }}"><a href="{{ site.baseurl }}/home-FM.html">F/M</a></li>
+            <li class="{{ page.link3 }}"><a href="{{ site.baseurl }}/home-FM.html">Fargo/Moorhead</a></li>
             <li class="{{ page.link4 }}"><a href="{{ site.baseurl }}/home-National.html">National</a></li>
           </ul>
 
